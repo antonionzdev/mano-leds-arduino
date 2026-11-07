@@ -1,0 +1,14 @@
+# Modelo descargado automáticamente por el script
+hand_landmarker.task
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
