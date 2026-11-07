@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 485" width="820" height="485" font-family="Helvetica, Arial, sans-serif">
+  <rect width="820" height="485" fill="#ffffff"/>
+  <text x="410" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1f2937">Esquema de conexión de los LED</text>
+
+  <!-- Arduino -->
+  <rect x="30" y="55" width="170" height="345" rx="8" fill="#e0f2f1" stroke="#00797a" stroke-width="2"/>
+  <text x="115" y="85" text-anchor="middle" font-size="14" font-weight="bold" fill="#00595a">Arduino UNO R4</text>
+  <text x="115" y="103" text-anchor="middle" font-size="14" font-weight="bold" fill="#00595a">WiFi</text>
+  <text x="115" y="385" text-anchor="middle" font-size="12" fill="#00595a">Lógica de 5 V</text>
+
+  <!-- Rail GND -->
+  <line x1="760" y1="130" x2="760" y2="400" stroke="#111827" stroke-width="4"/>
+  <text x="760" y="422" text-anchor="middle" font-size="13" font-weight="bold" fill="#111827">GND</text>
+  <text x="760" y="438" text-anchor="middle" font-size="11" fill="#4b5563">(a GND del Arduino)</text>
+
+  <!-- Fila 1: D2 Pulgar -->
+  <g stroke="#111827" stroke-width="2" fill="none">
+    <line x1="200" y1="140" x2="300" y2="140"/>
+    <rect x="300" y="130" width="60" height="20" fill="#fff7ed" stroke="#c2410c"/>
+    <line x1="360" y1="140" x2="480" y2="140"/>
+    <polygon points="480,124 480,156 516,140" fill="#fde68a"/>
+    <line x1="516" y1="122" x2="516" y2="158"/>
+    <line x1="516" y1="140" x2="760" y2="140"/>
+  </g>
+  <text x="212" y="132" font-size="13" font-weight="bold" fill="#00595a">D2</text>
+  <text x="330" y="122" text-anchor="middle" font-size="12" fill="#c2410c">220 Ω</text>
+  <text x="620" y="132" text-anchor="middle" font-size="13" fill="#1f2937">Pulgar</text>
+
+  <!-- Fila 2: D3 Índice -->
+  <g stroke="#111827" stroke-width="2" fill="none">
+    <line x1="200" y1="205" x2="300" y2="205"/>
+    <rect x="300" y="195" width="60" height="20" fill="#fff7ed" stroke="#c2410c"/>
+    <line x1="360" y1="205" x2="480" y2="205"/>
+    <polygon points="480,189 480,221 516,205" fill="#fde68a"/>
+    <line x1="516" y1="187" x2="516" y2="223"/>
+    <line x1="516" y1="205" x2="760" y2="205"/>
+  </g>
+  <text x="212" y="197" font-size="13" font-weight="bold" fill="#00595a">D3</text>
+  <text x="330" y="187" text-anchor="middle" font-size="12" fill="#c2410c">220 Ω</text>
+  <text x="620" y="197" text-anchor="middle" font-size="13" fill="#1f2937">Índice</text>
+
+  <!-- Fila 3: D4 Corazón -->
+  <g stroke="#111827" stroke-width="2" fill="none">
+    <line x1="200" y1="270" x2="300" y2="270"/>
+    <rect x="300" y="260" width="60" height="20" fill="#fff7ed" stroke="#c2410c"/>
+    <line x1="360" y1="270" x2="480" y2="270"/>
+    <polygon points="480,254 480,286 516,270" fill="#fde68a"/>
+    <line x1="516" y1="252" x2="516" y2="288"/>
+    <line x1="516" y1="270" x2="760" y2="270"/>
+  </g>
+  <text x="212" y="262" font-size="13" font-weight="bold" fill="#00595a">D4</text>
+  <text x="330" y="252" text-anchor="middle" font-size="12" fill="#c2410c">220 Ω</text>
+  <text x="620" y="262" text-anchor="middle" font-size="13" fill="#1f2937">Corazón</text>
+
+  <!-- Fila 4: D5 Anular -->
+  <g stroke="#111827" stroke-width="2" fill="none">
+    <line x1="200" y1="335" x2="300" y2="335"/>
+    <rect x="300" y="325" width="60" height="20" fill="#fff7ed" stroke="#c2410c"/>
+    <line x1="360" y1="335" x2="480" y2="335"/>
+    <polygon points="480,319 480,351 516,335" fill="#fde68a"/>
+    <line x1="516" y1="317" x2="516" y2="353"/>
+    <line x1="516" y1="335" x2="760" y2="335"/>
+  </g>
+  <text x="212" y="327" font-size="13" font-weight="bold" fill="#00595a">D5</text>
+  <text x="330" y="317" text-anchor="middle" font-size="12" fill="#c2410c">220 Ω</text>
+  <text x="620" y="327" text-anchor="middle" font-size="13" fill="#1f2937">Anular</text>
+
+  <!-- Fila 5: D6 Meñique -->
+  <g transform="translate(0,10)">
+  <g stroke="#111827" stroke-width="2" fill="none">
+    <line x1="200" y1="390" x2="300" y2="390"/>
+    <rect x="300" y="380" width="60" height="20" fill="#fff7ed" stroke="#c2410c"/>
+    <line x1="360" y1="390" x2="480" y2="390"/>
+    <polygon points="480,374 480,406 516,390" fill="#fde68a"/>
+    <line x1="516" y1="372" x2="516" y2="408"/>
+    <line x1="516" y1="390" x2="760" y2="390"/>
+  </g>
+  <text x="212" y="382" font-size="13" font-weight="bold" fill="#00595a">D6</text>
+  <text x="330" y="372" text-anchor="middle" font-size="12" fill="#c2410c">220 Ω</text>
+  <text x="620" y="382" text-anchor="middle" font-size="13" fill="#1f2937">Meñique</text>
+  </g>
+
+  <!-- Leyenda -->
+  <text x="410" y="470" text-anchor="middle" font-size="12" fill="#4b5563">Cada pin digital alimenta un LED a través de su resistencia. El cátodo (lado de la barra) va a GND.</text>
+</svg>
